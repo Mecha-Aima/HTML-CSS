@@ -1,0 +1,110 @@
+body{
+    background-color: #f5f5f5;
+}
+.navbar{
+    background-color: #f5f5f5 !important;
+    border-left: 1px solid rgb(55, 77, 119);
+    border-right: 1px solid rgb(55, 77, 119);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+    width: 90%;
+}
+section,footer{
+    width: 90%;
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer, footer *{
+    background-color: black;
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding: 10px 8px;
+}
+footer a{
+    text-decoration: none;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+    flex-basis: auto;
+    flex-grow: initial;
+}
+.card-footer{
+    width: 100%;
+}
+.container.gallery-container {
+    background-color: transparent;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}

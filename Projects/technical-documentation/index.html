@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Python for Beginners</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>PYTHON DOCS</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Hello_world">Hello world</a>
+        <a class="nav-link" href="#Data_types">Data types</a>
+        <a class="nav-link" href="#Operators">Operators</a>
+        <a class="nav-link" href="#Control_flow">Control flow</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+    </nav>
+    <main id="main-doc">
+      <!-- Introduction section -->
+      <section class="main-section" id="Introduction">
+        <header><h1>Introduction</h1></header>
+        <p>This guide is designed for beginners with no prior coding experience. We'll walk you through the fundamentals, getting you started with writing your own Python programs.</p>
+        <ul>
+          <li>Hello world program</li>
+          <li>Data types</li>
+          <li>Operators</li>
+          <li>Control flow</li>
+          <li>Functions</li>
+        </ul>
+      </section>
+
+      <!-- Hello world section -->
+      <section class="main-section" id="Hello_world">
+        <header><h1>Hello world</h1></header>
+        <p>Let's dive right in. This program first prompts the user for their name and then stores it in the name variable. Finally, it prints a greeting message personalized with the user's name.</p>
+        <div class="code-block"><pre><code>name = input("What's your name? ")
+print("Hello,", name + "!")
+</code></pre></div>
+        <p>The print() function is used to display information to the output console. The input() function is used to enter data from the keyboard.</p>
+      </section>
+
+      <!-- Data types section -->
+      <section class="main-section" id="Data_types">
+        <header><h1>Data types</h1></header>
+        <p>In Python, you can create variables and assign values to them. Python supports various data types including integers, floats, strings, lists, tuples, and dictionaries.</p>
+       <div class="code-block"> <code>name = "Alice"  # String data type<br/>
+age = 30        # Integer data type</br>
+is_happy = True  # Boolean data type (True or False)</br>
+</code></div>
+        <p>We can then use these variables in our code to perform operations or display information.</p>
+      </section>
+
+      <!-- Operators section -->
+      <section class="main-section" id="Operators">
+        <header><h1>Operators</h1></header>
+        <p>Python provides various operators for performing operations on variables and values. These include arithmetic operators, comparison operators, logical operators, and more.</p>
+        <div class="code-block"><code><pre>
+# Arithmetic operators
+a = 10
+b = 5
+print(a + b)  # Addition
+print(a - b)  # Subtraction
+print(a * b)  # Multiplication
+print(a / b)  # Division
+
+# Comparison operators
+print(a == b) # Equal to
+print(a != b) # Not equal to
+print(a > b)  # Greater than
+print(a <= b) # Less than or equal to
+
+# Logical operators
+x = True
+y = False
+print(x and y) # Logical AND
+print(x or y)  # Logical OR
+print(not x)   # Logical NOT
+</pre>
+        </code></div>
+        <p>These operators have their use in a number of mathematical applications that require data processing.</p>
+      </section>
+
+      <!-- Control flow section -->
+      <section class="main-section" id="Control_flow">
+        <header><h1>Control flow</h1></header>
+        <p>Python provides control structures such as if statements, loops, and functions to control the flow of your program.</p>
+        <div class="code-block"><code><pre>age = 15
+if age >= 18:
+  print("You are eligible to vote.")
+else:
+  print("You are not eligible to vote.")
+</pre></code></div>
+        <p>This code checks the value of age and displays a message based on the condition.</p>
+      </section>
+
+      <!-- Functions section -->
+      <section class="main-section" id="Functions">
+        <header><h1>Functions</h1></header>
+        <p>Functions in Python allow you to encapsulate reusable pieces of code. You can define your own functions using the def keyword.</p>
+        <div class="code-block"><code><pre>def greet(name):
+    print("Hello, " + name + "!")
+
+greet("Alice")
+</pre></code></div>
+        <p>This code defines a function named greet() that takes in a single arguement name</p>
+      </section>
+    </main>
+    
+  </body>
+</html>

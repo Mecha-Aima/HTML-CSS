@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch Enigma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./Assets/style.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../Home/home-style.css"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../Home/index.html">
+                <img src="./Assets/images/Logo.jpg" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Home/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../About Us/Our Vision.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Membership page/membership.html">Membership</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a> -->
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> 
+             </ul>
+            </div>
+        </div>
+    </nav> 
+
+
+    <section class="hero mt-5 pt-4">
+        <h1 class="text-center p-3 mb-0 border border-dark">Paintings</h1>
+        <h2 class="fw-normal p-3 mt-0 border border-dark">Famous pieces</h2>
+        <div class="container gallery-container">
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card m-2">
+                            <a class="lightbox"
+                                href="./Assets/images/Van_Gogh_-_Starry_Night_-_Google_Art_Project (1).jpg">
+                                <img src="./Assets/images/Van_Gogh_-_Starry_Night_-_Google_Art_Project (1).jpg"
+                                    alt="Bridge">
+                            </a>
+                            <div class="card-footer">
+                                <h5>Starry Night</h5>
+                                <small>Vincent Van Gogh</small>
+                            </div>
+                        </div>
+                        <div class="card m-2 mt-3">
+                            <a class="lightbox"
+                                href="./Assets/images/Girl-with-a-Pearl-Earring-canvas-Johannes-1665.webp">
+                                <img src="./Assets/images/Girl-with-a-Pearl-Earring-canvas-Johannes-1665.webp"
+                                    alt="Bridge">
+                            </a>
+                            <div class="card-footer">
+                                <h5>Girl with a perl earring</h5>
+                                <small>Johannes Vermeer</small>
+                            </div>
+                        </div>
+                        <div class="card m-2 mt-3">
+                            <a class="lightbox" href="./Assets/images/scream.jpg">
+                                <img src="./Assets/images/scream.jpg" alt="Bridge">
+                            </a>
+                            <div class="card-footer">
+                                <h5>The Scream</h5>
+                                <small>Edvard Munch</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 d-flex flex-wrap">
+                        <div class="col-md-4">
+                            <div class="card m-2">
+                                <a class="lightbox" href="./Assets/images/190430171751-mona-lisa.jpg">
+                                    <img src="./Assets/images/190430171751-mona-lisa.jpg" alt="Park">
+                                </a>
+                                <div class="card-footer">
+                                    <h5>Mona Lisa</h5>
+                                    <small>Leonardo Da Vinci</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card m-2">
+                                <a class="lightbox" href="./Assets/images/persistance of memory.jpeg">
+                                    <img src="./Assets/images/persistance of memory.jpeg" alt="Tunnel">
+                                </a>
+                                <div class="card-footer">
+                                    <h5>The Persistence of Memory</h5>
+                                    <small>Salvador Dali</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card m-2">
+                                <a class="lightbox" href="./Assets/images/UltimaCena_CDM_1280x560 (1).jpg">
+                                    <img src="./Assets/images/UltimaCena_CDM_1280x560 (1).jpg" alt="Tunnel">
+                                </a>
+                                <div class="card-footer">
+                                    <h5>The Last Supper</h5>
+                                    <small>Leonardo Da Vinci</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card m-2">
+                                <a class="lightbox" href="./Assets/images/Tsunami_by_hokusai_19th_century (1).jpg">
+                                    <img src="./Assets/images/Tsunami_by_hokusai_19th_century (1).jpg" alt="Tunnel">
+                                </a>
+                                <div class="card-footer">
+                                    <h5>The Great Wave off Kanagawa</h5>
+                                    <small>Hokusai</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="mt-4">
+        <h2 class="fw-normal p-3 mt-0 border border-dark">Abstract Art</h2>
+        <div class="row px-5">
+            <div class="col-md-4">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox" href="./Assets/images/abstract 2.jpeg">
+                        <img style="height: 350px;" src="./Assets/images/abstract 2.jpeg" alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>Scarred</h5>
+                        <small>Lora James</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox"
+                        href="./Assets/images/abstract-painting-grey-by-ad-reinhardt-mkdp82e2jzy3zpqg.webp">
+                        <img style="height: 350px;"
+                            src="./Assets/images/abstract-painting-grey-by-ad-reinhardt-mkdp82e2jzy3zpqg.webp"
+                            alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>Autumn Lake</h5>
+                        <small>Javier Morales</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox" href="./Imagggggg/free flow.png">
+                        <img style="height: 350px;"
+                            src="./Imagggggg/free flow.png" alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>Free Flow</h5>
+                        <small>Kevin Mistro</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4">
+        <h2 class="fw-normal p-3 mt-0 border border-dark">Watercolor</h2>
+        <div class="row px-5">
+            <div class="col-md-4">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox"
+                        href="./Imagggggg/parchment.png">
+                        <img style="height: 350px;"
+                            src="./Imagggggg/parchment.png"
+                            alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>Parchment</h5>
+                        <small>Lora James</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox" href="./Assets/images/Screenshot 2023-12-07 at 22.14.21.png">
+                        <img style="height: 350px;" src="./Assets/images/Screenshot 2023-12-07 at 22.14.21.png"
+                            alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>Golden Hour</h5>
+                        <small>Jacob Sylvester</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox" href="./Assets/images/golden hour by jacob.jpg">
+                        <img style="height: 350px;" src="./Assets/images/golden hour by jacob.jpg" alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>My Little Palace</h5>
+                        <small>Alessandro Rossi</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox" href="./Assets/images/candel light.png">
+                        <img style="height: 350px;" src="./Assets/images/candel light.png" alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>By the candlelight</h5>
+                        <small>Oscar Ng</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4">
+        <h2 class="fw-normal p-3 mt-0 border border-dark">Cubism</h2>
+        <div class="row px-5">
+            <div class="col-md-4">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox" href="./Assets/images/cubism-horse-painting.jpg">
+                        <img style="height: 250px;" src="./Assets/images/cubism-horse-painting.jpg" alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>Magestic</h5>
+                        <small>Aria Chen</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox" href="./Imagggggg/crystal.png">
+                        <img style="height: 250px;" src="./Imagggggg/crystal.png"
+                            alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>Crystal</h5>
+                        <small>Andre Dubios</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-2 d-flex flex-column align-items-center">
+                    <a class="lightbox" href="./Assets/images/Screenshot 2023-12-07 at 21.43.22.png">
+                        <img style="height: 250px;" src="./Assets/images/Screenshot 2023-12-07 at 21.43.22.png"
+                            alt="Bridge">
+                    </a>
+                    <div class="card-footer">
+                        <h5>Twisted Games</h5>
+                        <small>Luca Martini</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="mt-5" style="background-color:#d8b382;">
+        <h1 class="p-5 text-center mt-0 border border-dark">Ancient Sculptures</h1>
+        <h2 class="fw-normal p-3 mt-3 border border-dark">Roman Sculpture</h1>
+            <div class="row px-5">
+                <div class="col-md-4">
+                    <div class="card m-2 d-flex flex-column align-items-center">
+                        <a class="lightbox" href="./Assets/images/Vi1hM9VUYYZZcFO15byUwvUW8YAv5RAPZKH1gpQDGqQ.jpg.webp">
+                            <img style="height: 400px;"
+                                src="./Assets/images/Vi1hM9VUYYZZcFO15byUwvUW8YAv5RAPZKH1gpQDGqQ.jpg.webp" alt="Bridge">
+                        </a>
+                        <div class="card-footer">
+                            <h5>Chiaramonti Niobid</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card m-2 d-flex flex-column align-items-center">
+                        <a class="lightbox" href="./Assets/images/pexels-photo-11540175.jpeg">
+                            <img style="height: 400px;" src="./Assets/images/pexels-photo-11540175.jpeg" alt="Bridge">
+                        </a>
+                        <div class="card-footer">
+                            <h5>Statue of Aathena</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card m-2 d-flex flex-column align-items-center">
+                        <a class="lightbox" href="./Assets/images/'Moses'_by_Michelangelo_JBU160.jpg">
+                            <img style="height: 400px;" src="./Assets/images/'Moses'_by_Michelangelo_JBU160.jpg"
+                                alt="Bridge">
+                        </a>
+                        <div class="card-footer">
+                            <h5>Mose di Michelangelo</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="fw-normal p-3 pt-5 mt-3 border border-dark">Egyption Wonders</h1>
+                <div class="row px-5">
+                    <div class="col-md-4">
+                        <div class="card m-2 d-flex flex-column align-items-center">
+                            <a class="lightbox"
+                                href="./Assets/images/birmingham-museums-trust-lyol1rcun8w-unsplash.jpg">
+                                <img style="height: 400px;"
+                                    src="./Assets/images/birmingham-museums-trust-lyol1rcun8w-unsplash.jpg"
+                                    alt="Bridge">
+                            </a>
+                            <div class="card-footer">
+                                <h5>Bronze cat figurine</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card m-2 d-flex flex-column align-items-center">
+                            <a class="lightbox" href="./Assets/images/3428.jpg.webp">
+                                <img style="height: 400px;" src="./Assets/images/3428.jpg.webp" alt="Bridge">
+                            </a>
+                            <div class="card-footer">
+                                <h5>Falcon god - Horus</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card m-2 d-flex flex-column align-items-center">
+                            <a class="lightbox" href="./Assets/images/reno-laithienne-dA4ITAdcRW0-unsplash.jpg">
+                                <img style="height: 400px;"
+                                    src="./Assets/images/reno-laithienne-dA4ITAdcRW0-unsplash.jpg" alt="Bridge">
+                            </a>
+                            <div class="card-footer">
+                                <h5>Sphinx of Hatshepsut</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="fw-normal p-3 pt-5 mt-3 border border-dark">Greek Legends</h1>
+                    <div class="row px-5">
+                        <div class="col-md-4">
+                            <div class="card m-2 d-flex flex-column align-items-center">
+                                <a class="lightbox"
+                                    href="./Imagggggg/Appolo.webp">
+                                    <img style="height: 400px;"
+                                        src="./Imagggggg/Appolo.webp"
+                                        alt="Bridge">
+                                </a>
+                                <div class="card-footer">
+                                    <h5>Apollo Belvedere</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card m-2 d-flex flex-column align-items-center">
+                                <a class="lightbox" href="./Imagggggg/primaporta-tall.jpg">
+                                    <img style="height: 400px;" src="./Imagggggg/primaporta-tall.jpg" alt="Bridge">
+                                </a>
+                                <div class="card-footer">
+                                    <h5>Augustus of Prima Porta</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card m-2 d-flex flex-column align-items-center">
+                                <a class="lightbox" href="./Imagggggg/discobulus.jpg">
+                                    <img style="height: 400px;"
+                                        src="./Imagggggg/discobulus.jpg" alt="Bridge">
+                                </a>
+                                <div class="card-footer">
+                                    <h5>Discobolus</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+    <footer class="py-5 px-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="" alt="footer-logo" />
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Collections</a>
+                    </li>
+                    <li>
+                        <a href="#">Membership</a>
+                    </li>
+                    <li>
+                        <a href="#">Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <small>Subscribe to Newsletter</small>
+                    <div class="input-group mb-3">
+                        <input class="fomr-control bg-white" type="text" placeholder="Enter your email" />
+                        <span class="input-group-text text-dark" style="background-color:#d8b382;"
+                            id="basic-addon2">Signup</span>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <small>Follow us on:</small>
+                    <div class="mt-3 d-flex justify-content-evenly">
+                        <i class="fa fa-2x fa-pinterest"></i>
+                        <i class="fa fa-2x fa-instagram"></i>
+                        <i class="fa fa-2x fa-facebook"></i>
+                        <i class="fa fa-2x fa-youtube-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <footer>
+        <div class="footer" style="background-color: #251725;">
+            <div id="footer-logo">
+                <img src="../Media/Home-assets/Vectors/Logo vector.svg">
+                <img src="../Media/Home-assets/Vectors/Logo text.svg"       >
+            </div>
+            <div>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <li>About</li>
+                    <li>Collection</li>
+                    <li>Membership</li>
+                    <li>Contact</li>
+                    <li>Donate</li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <label for="newsletter" style="font-size: 12px; color: #e6e6e6d0 ;">Subscribe to newsletter</label>
+                <div id="email-input" style="display: flex; justify-content: center;align-items: center; 
+                    width: fit-content;">
+                    <input type="email" placeholder="Enter your email address" id="newsletter">
+                    <button style="padding: 0 16px; background-color: #D8B382;border: 1px solid; height: 40px;">Sign
+                        Up</button>
+                </div>
+                <div class="social-media-links" style="display: flex; flex-direction: column; width: 100%;"><p style="color: #F5F5F5;">Join us on:</p>
+                <div class="links" style="display: flex; justify-content: space-between; width: 50%; margin-top: 8px;";>
+                    <img src="../Media/Home-assets/Vectors/instagram.svg">
+                    <img src="../Media/Home-assets/Vectors/youtube.svg">
+                    <img src="../Media/Home-assets/Vectors/facebook.svg">
+                </div></div>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+</body>
+
+</html>

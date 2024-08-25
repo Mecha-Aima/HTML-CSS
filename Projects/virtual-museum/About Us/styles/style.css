@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=montesserat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f5f5f5;
+}
+
+body {
+    font-family: 'montesserat';
+    background-color: #8c6b68;
+}
+
+.container {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading2 {
+    font-family: playfair display;
+    font-size: 96px;
+}
+
+.container-border {
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    padding: 20px;
+}
+p{
+font-size: 18px;
+
+}
+hr {
+    border-top: 1px solid #f5f5f5;
+}
+
+.container-lg {
+    min-height: calc(100vh - 118.4px);
+    
+}
+#para1{
+    margin-top: 72px;
+    width: 60%;
+}
+#para2{
+    margin-top: 36px;
+    width: 60%;
+}

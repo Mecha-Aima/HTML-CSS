@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- The head element contains metadata and links to external resources -->
+  <head>
+    <meta charset="utf-8"/>
+    <!-- Sets the character encoding to UTF-8, which supports most characters from various languages -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Ensures the website is responsive, adapting to different screen sizes -->
+    <meta name="description" content="Coffee Product Marketing Landing Page"/>
+    <title>CoffeeCraze Premium Coffee</title>
+
+    <!-- Link to an external CSS file for styling the page -->
+    <link rel="stylesheet" href="styles.css"/>
+
+    <!-- Internal CSS styles, specifically importing custom fonts from Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Lugrasimo&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <!-- Logo image -->
+      <img id="header-img" src="https://img.freepik.com/premium-vector/coffee-logo-with-cup_23-2147502485.jpg"/>
+      
+      <!-- Navigation bar with links to different sections of the page -->
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#about-us">About Us</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section id="hero">
+        <!-- Text content and call-to-action button in the hero section -->
+        <div class="text-block">
+          <h1 class="headline heading">Discover Your Perfect Brew at BrewHaven</h1>
+          <p class="subheadline">Savor the Finest Ethically Sourced Coffee, Delivered Fresh to Your Doorstep</p>
+          <button id="hero-cta">Shop Now</button>
+        </div>
+        <!-- Background image for the hero section -->
+        <img src="https://images.pexels.com/photos/3879495/pexels-photo-3879495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" id="hero-img"/>
+      </section>
+
+      <!-- FEATURES -->
+      <!-- Section title for the features section -->
+      <h2 class="section-title heading">Why BrewHaven?</h2>
+      <section id="features">
+        <!-- Each div represents a feature offered by the company -->
+        <div class="feature">
+          <img src="https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="coffee-machine"/>
+          <h3 class="heading">Handpicked Excellence</h3>
+          <p>Our rich-flavoured beans are sourced from the finest coffee plantations around the world.</p>
+        </div>
+        <div class="feature">
+          <img src="https://images.pexels.com/photos/3914189/pexels-photo-3914189.jpeg" alt="coffee-beans"/>
+          <h3 class="heading">Sustainable Commitment</h3>
+          <p>With eco-friendly technology, we are dedicated to environmentally friendly farming and packaging.</p>
+        </div>
+        <div class="feature">
+          <img src="https://images.pexels.com/photos/3082789/pexels-photo-3082789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="irish-latte"/>
+          <h3 class="heading">Unique Blends</h3>
+          <p>Enjoy exclusive blends like Espresso, Italian, and Columbian, curated by our expert roasters.</p>
+        </div>
+      </section>
+
+      <!-- ABOUT US -->
+      <section id="about-us">
+        <!-- Section title for the "About Us" section -->
+        <h2 class="section-title">Our Story</h2>
+        <!-- A brief description of the company's background and mission -->
+        <p>BrewHaven started with a simple mission: to bring the best coffee from around the world to your doorstep. Our team of coffee enthusiasts and experts work tirelessly to ensure every cup you brew is of the highest quality. Join us on our journey to make the world a better place, one cup of coffee at a time.</p>
+        <!-- Embedded YouTube video providing more information about the company -->
+        <iframe id="video" 
+          width="700" 
+          height="425" 
+          src="https://www.youtube.com/embed/rLaVDQy0q8Y?si=XTsjZKDEU93paeqr" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+      </section>
+
+      <!-- PRICING -->
+      <!-- Section title for the pricing section -->
+      <h2 class="section-title heading">Simple, Transparent Pricing</h2>
+      <section id="pricing">
+        <!-- Contains the different pricing tiers available for customers -->
+        <div class="tiers">
+          <div class="tier">
+            <div class="tier-content">
+              <h3 class="heading">Starter Pack</h3>
+              <p><span class="price">$15</span>/month</p>
+              <ul>
+                <!-- List of features included in the Starter Pack -->
+                <li>1 bag of signature blend (12oz)</li>
+                <li>Free US shipping</li>
+                <li>Exclusive content access</li>
+                <li>Welcome gift</li>
+              </ul>
+            </div>
+            <button class="tier-cta">Choose Plan</button>
+          </div>
+          <div class="tier recommended">
+            <div class="tier-content">
+              <h3 class="heading">Coffee Enthusiast</h3>
+              <p><span class="price">$25</span>/month</p>
+              <ul>
+                <!-- List of features included in the Coffee Enthusiast plan -->
+                <li>2 bags of signature blend (12oz each)</li>
+                <li>Free US shipping</li>
+                <li>Exclusive content access</li>
+                <li>Welcome gift</li>
+                <li>Brewing tips and recipes</li>
+              </ul>
+            </div>
+            <button class="tier-cta">Choose Plan</button>
+          </div>
+          <div class="tier">
+            <div class="tier-content">
+              <h3 class="heading">Coffee Connoisseur</h3>
+              <p><span class="price">$45</span>/month</p>
+              <ul>
+                <!-- List of features included in the Coffee Connoisseur plan -->
+                <li>4 bags of premium blend (12oz each)</li>
+                <li>Free worldwide shipping</li>
+                <li>Exclusive content access</li>
+                <li>Welcome gift</li>
+                <li>Brewing tips and recipes</li>
+                <li>Early product access</li>
+                <li>Exclusive discounts</li>
+              </ul>
+            </div>
+            <button class="tier-cta">Choose Plan</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- EMAIL SUBSCRIPTION -->
+      <!-- Form for users to subscribe to the email newsletter -->
+      <form id="form" action="">
+        <h2 class="heading">Newest Blends & Brewing ideas, right in your Inbox</h2>
+        <!-- Input field for users to enter their email address -->
+        <input type="email" id="email" name="email" required placeholder="Enter your email..."/>
+        <!-- Submit button for the form -->
+        <input value="Subscribe" type="submit" id="submit"/>
+      </form>
+    </main>
+    <footer>
+      <!-- Footer content including author credit -->
+      <p>by Aimen Ameer Malik</p>
+      <!-- Additional links for copyright claims and privacy policy -->
+      <div class="small-text">
+        <p>Copyright claims</p>
+        <p>Privacy Policy</p>
+      </div>
+    </footer>
+  </body>
+</html>

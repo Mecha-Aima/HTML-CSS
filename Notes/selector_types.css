@@ -1,0 +1,45 @@
+/* ID Selector */
+.main-heading {
+    text-align: center;
+    vertical-align: middle;
+    margin: 8px 12px 20px 16px; /*top, right, bottom, left*/
+    padding: 8px;
+    background-color: #685240f1;
+    color: aliceblue;
+    box-sizing: border-box;
+    height: 120px;
+    border: #2a241ff1 solid 2px;
+}
+
+/* Class Selector */
+#body-copy{
+    padding: 8px;
+    vertical-align: middle;
+    background-color: aquamarine;
+    font-family: monospace;
+}
+
+/* Child Selector */
+div > img{
+    width: 60%;
+    border: 1px solid;
+    display: flexbox;
+    align-items: center;
+    image-rendering: optimizeSpeed;
+}
+
+/* Universal Selector */
+*{
+    padding: 10px;
+}
+
+
+/* Pseudo Selectors */
+/* For links that have been visited */
+a:visited{
+    color: purple;
+}
+/* Default appearance */
+a:link{
+    color: rgb(0, 162, 162);
+}

@@ -1,0 +1,34 @@
+/* Some lines are self-explanatory */
+
+body{
+    background-color: black;
+    color: lightblue;
+    font-weight: 100;
+    text-align: left;
+    font-size: 16pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Set the margin to 5% on the left and right, and 10% on the top and bottom */
+    margin: 5% 10% 10% 5%;
+    image-orientation : from-image;     /* Set the image orientation to be based on the image itself */
+    columns: 2;
+
+}
+.main-heading{
+    font-style: bold;
+    font-variant: normal;
+    font-weight: 100;
+    font-size: xx-large;
+    text-align: left;
+    margin-top: 40%;
+    /* Add a drop shadow to the heading with a 10px offset and dark blue color */
+    filter: drop-shadow(10px 10px darkblue);
+
+}
+.main-image img{
+    /* Align the image to the right */
+    align-self: right;
+    /* Set the contrast of the image to 100% */
+    filter: contrast(100%);
+    /* Set the width of the image to 400px */
+    width: 400px;
+}

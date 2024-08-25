@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        h1 {
+            /*Highest precedence*/
+            color: orange !important;
+        }
+
+        .color1 {
+            color: seagreen
+        }
+
+        .color2 {
+            color: maroon;
+            font-family: Zodiak;
+            font-weight: bolder;
+            margin-bottom: 2px;
+            
+        }
+        p{
+            font-family: Montserrat;
+            line-height: 1.2;
+            margin-top: 0;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="color1 color2">Zodiak</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quo nesciunt facere eius laboriosam totam quibusdam debitis aliquam ut quis?</p>
+</body>
+
+</html>

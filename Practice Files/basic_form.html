@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic User Form</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <div><label for="user-name">Enter your name</label></div>
+            <input type="text" autofocus id="user-name" name="Name field" required>
+        </div>
+        <div style="align-content: vertical;">
+            <div><label for="user-city">Enter your city</label></div>
+            <input type="text" id="user-city" name="City field">
+        </div>
+        <!-- Quick quiz -->
+        <div>
+            <div><label for="user-pincode">Enter your PIN code</label></div>
+            <input type="password" id="user-pincode" name="PIN code field" required>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

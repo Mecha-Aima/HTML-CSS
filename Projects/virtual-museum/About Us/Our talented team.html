@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent</title>
+    <link rel="stylesheet" href="../Home/home-style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montesserat'
+}
+
+.container {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading2 {
+    color:#59262E;
+    font-family: playfair display;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container-border {
+    border-left: 1px solid rgb(156, 0, 0);
+    border-right: 1px solid rgb(156, 0, 0);
+    padding: 20px;
+}
+
+hr {
+    border-top: 1px solid rgb(156, 0, 0);
+}
+
+.container-lg {
+    min-height: calc(100vh - 118.4px);
+    display: flex;
+    justify-content: center;
+}
+
+.img-div {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-div img {
+    width: auto;
+    height: 100%;
+    margin-left: 0px;
+}
+
+.card {
+    text-align: center;
+    max-width: 30%;
+    padding: 48px;
+}
+
+.card p {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+</style>
+
+<body>
+    <header style="background-color: #8C6B68;  border-left: 1px solid rgb(156, 0, 0);border-right: 1px solid rgb(156, 0, 0);">
+        <div class="logo" style="display: inline;" >
+            <a href="../Home/index.html"><img src="../Media/Home-assets/Vectors/Full logo.svg" alt="Museum Logo" id="full-logo"></a>
+        </div>
+        <nav>
+            <div class="navigation">
+                <ul>
+                    <a href="../Home/index.html" style="user-select: none; color: #efefef;"> <li>Home</li></a>
+                    <li><a href="Our Vision.html" style="user-select: none; color: #efefef;">About</a></li>
+                    <li><a href="../Collection/collections.html" style="user-select: none; color: #efefef;">Collection</a></li>
+                    <li><a href="../Membership page/membership.html" style="user-select: none; color: #efefef;">Membership</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container container-border">
+        <h1 class="heading2">
+            Our Talented Team
+        </h1>
+    </div>
+    <hr />
+    <div class="container container-border container-lg">
+        <div class="card">
+            <div class="img-div"> <img src="assets/Emily.jpeg" /> </div>
+            <br><br>
+            <h5>Founder: </h5>
+            <h4>Emily Sanchez</h4>
+            <p>With a passion for blending technology and art, Emily conceived the idea of a virtual museum that breaks
+                the conventional mold.</p>
+        </div>
+        <div class="card">
+            <div class="img-div"> <img src="assets/Daniel.jpeg" /> </div>
+            <br><br>
+            <h5>Lead Artist: </h5>
+            <h4>Daniel Harper</h4>
+            <p>Daniel Harper, our lead artist, is the creative force behind the captivating digital masterpieces
+                featured at Epoch Enigma.</p>
+        </div>
+        <div class="card">
+            <div class="img-div"> <img src="assets/John.jpeg" /> </div>
+            <br><br>
+            <h5>Management John: </h5>
+            <h4>Renolds</h4>
+            <p>As the backbone of Epoch Enigma, John Renolds overseas the seamless operation and management of our
+                virtual museum.</p>
+        </div>
+    </div>
+
+    <a href="Our Vision.html">
+        <div style="display: flex; width: 100%; justify-content: center; align-items: center; padding: 40px; gap: 24px;">
+            <h3 style="color: #efefef; font-size: 40px;">Our vision</h3 >
+            <img style="filter: invert(1); width: 80px; padding-right: 40px;" src="../Media/Home-assets/Vectors/Arrow.svg" alt="">
+        </div>
+    </a>
+
+    <footer>
+        <div class="footer">
+            <div id="footer-logo">
+                <img src="../Media/Home-assets/Vectors/Logo vector.svg">
+                <img src="../Media/Home-assets/Vectors/Logo text.svg"       >
+            </div>
+            <div>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <li>About</li>
+                    <li>Collection</li>
+                    <li>Membership</li>
+                    <li>Contact</li>
+                    <li>Donate</li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <label for="newsletter" style="font-size: 12px; color: #e6e6e6d0 ;">Subscribe to newsletter</label>
+                <div id="email-input" style="display: flex; justify-content: center;align-items: center; 
+                    width: fit-content;">
+                    <input type="email" placeholder="Enter your email address" id="newsletter">
+                    <button style="padding: 0 16px; background-color: #D8B382;border: 1px solid; height: 40px;">Sign
+                        Up</button>
+                </div>
+                <div class="social-media-links" style="display: flex; flex-direction: column; width: 100%;"><p style="color: #F5F5F5;">Join us on:</p>
+                <div class="links" style="display: flex; justify-content: space-between; width: 50%; margin-top: 8px;";>
+                    <img src="../Media/Home-assets/Vectors/instagram.svg">
+                    <img src="../Media/Home-assets/Vectors/youtube.svg">
+                    <img src="../Media/Home-assets/Vectors/facebook.svg">
+                </div></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

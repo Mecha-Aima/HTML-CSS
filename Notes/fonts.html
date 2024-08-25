@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Styling for main heading */
+        h1{
+            font-family: Helvetica, sans-serif; /* Font family with sans serif style */
+            font-style: oblique; /* Slanted font */
+            font-weight: 900; /* Thicker font */
+            text-transform: uppercase; /* Convert all text to uppercase */
+            text-indent: 10px; /* Indent 10px from the left */
+        }
+        /* Styling for paragraph */
+        p{
+            font-family: Futura, sans-serif; /* Font family with sans serif style */
+            font-style: normal; /* Normal font style */
+            line-height: 2; /* Double the line spacing */
+        }
+        /* Styling for quote */
+        q{
+            text-decoration: underline; /* Underline the text */
+        }
+        /* Styling for small text within quote */
+        q > small{
+            text-decoration: overline; /* Overline the text */
+            text-decoration-color: red; /* Change the color of the decoration */
+            text-decoration-style: double; /* Double the line thickness */
+            text-decoration-thickness: 2px; /* Set the line thickness to 2px */
+            letter-spacing: 2px; /* Set the letter spacing to 2px */
+        }
+        /* Styling for lorem ipsum */
+        .lorem{
+            border: 1px solid; /* Add a border */
+            width: 100px; /* Set the width to 100px */
+            height: 100px; /* Set the height to 100px */
+            text-overflow: ellipsis; /* Create an ellipsis at the end of the text */
+            overflow: scroll; /* Allow the user to scroll horizontally */
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Heading</h1>
+        <pre><p>This is about fonts
+This is not about pre tag</p></pre>
+        <q cite="Einstein">If you can't explain something... <small>Einstein</small></q>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita accusamus iusto, sit praesentium harum dolor maiores deserunt! emo, mollitia.</p>
+    </div>
+</body>
+</html>

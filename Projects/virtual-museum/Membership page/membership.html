@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../Home/home-style.css">
+    <link rel="stylesheet" href="mem-style.css">
+
+</head>
+<body>
+    <header style=" background-color: #DAD1C1; ">
+        <div class="logo" style="display: inline; margin: none;">
+            <a href="../Home/index.html"><img src="../Media/Home-assets/Vectors/Full-logo-dark.svg" alt="Museum Logo" id="full-logo"></a>
+        </div>
+        <nav>
+            <div class="navigation">
+                <ul>
+                    <a href="../Home/index.html" style="user-select: none;"> <li>Home</li></a>
+                    <li><a href="../About Us/Our Vision.html" style="user-select: none;">About</a></li>
+                    <li><a href="../Collection/collections.html">Collection</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1><strong>Join Our Creative Ventures</strong></h1>
+    <section>    
+        <div class="main">
+        <div class="register">
+            <h2>Contribute to the Magic</h2>
+            <form id="register" method="post">
+                <div style="margin-bottom: 15px;">
+                    <label>Name:</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your full name">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Contact:</label>
+                    <br>
+                    <input type="number" name="contact" id="name" placeholder="+92">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Email:</label>
+                    <br>
+                    <input type="text" name="mail" id="name" placeholder="example@domain.com">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Country:</label>
+                    <br>
+                    <input type="text" name="country" id="name" >
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Experience:</label>
+                    <br>
+                    <input type="text" name="experience" id="name">
+                </div>
+                <button style="background-color: #D8B382" onclick="membership_message();">Apply For Membership</button>
+            </form>
+        </div>
+     </div>
+ </section>
+ <section>
+    <div class="main">
+        <div class="register">
+            <h2>Support Our Artists</h2>
+            <form id="register" method="post">
+                <div style="margin-bottom: 15px;">
+                    <label>Name:</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your full name">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Email:</label>
+                    <br>
+                    <input type="text" name="mail" id="name" placeholder="example@domain.com">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Payment Options:</label>
+                    <br>
+                    <select>
+                        <option value="Paypal">Pay pal</option>
+                        <option value="Visa">Visa</option>
+                        <option value="Master Card">Master Card</option>
+                        <option value="Amazon Pay">Amazon Pay</option>
+                        <option value="Apple Pay">Apple Pay</option>
+                    </select>
+                    <br><br>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Amount:</label>
+                    <br>
+                    <input type="number" name="amount" id="name" placeholder="$">
+                </div>
+                <button style="background-color:#a0666f" onclick="donation_message();">Donate</button>
+            </form>
+        </div>
+     </div>
+ </section>
+
+
+
+<script src="../Home/script.js"></script>
+</body>
+</html>

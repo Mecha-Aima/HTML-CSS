@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #59262E;
+    color: #000;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #59262E;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 96px;
+    color: maroon;
+    text-align: center;
+}
+
+.artist {
+    background-color: #59262E;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.artist:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff; /* Add white thin border */
+    box-sizing: border-box; /* Ensure the border doesn't increase the size of the artist section */
+}
+
+.artist img {
+    max-width: 20%; /* Maintain original image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.info {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.artist h2,
+.artist p,
+strong {
+    color: #fffefe; /* Set text color to black for text elements inside artist sections */
+    line-height: 1.6;
+}
+
+/* Change the color for "Artists & Sculptors" text */
+.container h1 {
+    color: #ffffff; /* Set text color to black for this specific heading */
+}
